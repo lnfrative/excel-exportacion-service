@@ -1,0 +1,56 @@
+{
+  "facultad": "Facultad de Ingeniería en Electricidad y Computación",
+  "resultadoAprendizaje": "Diseña soluciones de software aplicando principios de ingeniería de software",
+  "codigoMateria": "ICCD0100",
+  "nombreMateria": "Estructuras de Datos y Algoritmos",
+  "nombreDocente": "María Fernanda Torres",
+  "meta": 0.75,
+  "periodo": "PAO-1",
+  "criterios": [
+    {
+      "nombre": "Aplica estructuras de datos apropiadas para resolver un problema",
+      "tipoInstrumento": "Proyecto de curso",
+      "descripcionInstrumento": "Proyecto integrador evaluado con rúbrica al final del semestre"
+    },
+    {
+      "nombre": "Analiza la complejidad algorítmica de una solución",
+      "tipoInstrumento": "Examen",
+      "descripcionInstrumento": "Examen parcial con preguntas de análisis de complejidad"
+    },
+    {
+      "nombre": "Implementa algoritmos de forma correcta y eficiente",
+      "tipoInstrumento": "Práctica de laboratorio",
+      "descripcionInstrumento": "Prácticas semanales calificadas con casos de prueba automatizados"
+    }
+  ],
+  "estudiantes": [
+    { "nombre": "Ana Belén Salazar", "calificaciones": ["S", "E", "S"] },
+    { "nombre": "Carlos Andrés Zambrano", "calificaciones": ["D", "S", "S"] },
+    { "nombre": "Diana Carolina Mora", "calificaciones": ["U", "D", "D"] },
+    { "nombre": "Erick Xavier Peña", "calificaciones": ["E", "E", "E"] },
+    { "nombre": "Fátima Nicole Rivas", "calificaciones": ["S", "S", "E"] }
+  ],
+  "accionesMejora": {
+    "curso": {
+      "factorMejora": "Bajo desempeño en análisis de complejidad",
+      "accionPropuesta": "Agregar taller práctico adicional sobre notación Big-O",
+      "responsable": "María Fernanda Torres",
+      "fechaInicioFin": "01/03/2026 - 30/06/2026",
+      "observaciones": "Coordinar con el laboratorio de cómputo"
+    },
+    "programa": {
+      "factorMejora": "Poca exposición a proyectos integradores tempranos",
+      "accionPropuesta": "Incluir un mini-proyecto integrador desde el segundo nivel",
+      "responsable": "Coordinación de la carrera",
+      "fechaInicioFin": "01/05/2026 - 31/08/2026",
+      "observaciones": ""
+    },
+    "instrumento": {
+      "factorMejora": "Rúbrica del proyecto de curso poco granular",
+      "accionPropuesta": "Revisar y ampliar niveles de logro de la rúbrica",
+      "responsable": "Comité curricular",
+      "fechaInicioFin": "01/03/2026 - 15/03/2026",
+      "observaciones": "Validar con dos docentes adicionales"
+    }
+  }
+}

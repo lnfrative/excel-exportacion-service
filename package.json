@@ -1,0 +1,27 @@
+{
+  "name": "excel-exportacion-service",
+  "version": "1.0.0",
+  "description": "Microservicio que genera el Excel 'Reporte de Medición y Acciones de Mejora' (FT-02-V01/PRO-DAR-004) con fidelidad visual exacta respecto a la plantilla institucional.",
+  "private": true,
+  "type": "module",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "dev": "tsx watch src/server.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@xmldom/xmldom": "^0.9.6",
+    "fastify": "^5.1.0",
+    "fastify-plugin": "^6.0.0",
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "exceljs": "^4.4.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}

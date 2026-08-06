@@ -1,0 +1,17 @@
+{
+  "facultad": "Facultad de Ciencias Sociales y Humanísticas",
+  "resultadoAprendizaje": "Comunica ideas de forma clara y estructurada",
+  "codigoMateria": "FCSH0001",
+  "nombreMateria": "Comunicación Oral y Escrita",
+  "nombreDocente": "Jorge Iván Baque",
+  "meta": 0.6,
+  "periodo": "PAO-0",
+  "criterios": [
+    {
+      "nombre": "Estructura sus ideas de forma lógica",
+      "tipoInstrumento": "Ensayo",
+      "descripcionInstrumento": "Ensayo final individual"
+    }
+  ],
+  "estudiantes": []
+}
